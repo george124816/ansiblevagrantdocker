@@ -1,0 +1,75 @@
+version: '3.2'
+
+services:
+  linux1:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+
+  linux2:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+
+  linux3:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+
+  linux4:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+  
+  linux5:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+
+  linux6:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+  
+  linux7:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+  
+  linux8:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+
+  linux9:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+
+  linux10:
+    build: .
+    ports:
+    - 22
+    networks:
+    - foss
+
+networks:
+  foss:
