@@ -16,7 +16,7 @@ vagrant up
 
 replace this output without '/16' in ansible/hosts
 ```
-docker inspect ansible_foss --format='{{range .Containers}}{{println .IPv4Address}}{{end}}'
+docker inspect ansiblevagrantdocker_foss --format='{{range .Containers}}{{println .IPv4Address}}{{end}}'
 ```
 
 to use ad hoc commands ```cd ansible``` and
