@@ -2,25 +2,26 @@
 #127.0.0.1 ansible_connection=local gather_facts=false
 
 [vm]
-192.168.33.10 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.11 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.12 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.13 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.14 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.15 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.16 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.17 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.18 ansible_user=vagrant ansible_ssh_pass=vagrant
-192.168.33.19 ansible_user=vagrant ansible_ssh_pass=vagrant
+192.168.33.10 ansible_ssh_pass=vagrant
+192.168.33.11 ansible_ssh_pass=vagrant
+192.168.33.12 ansible_ssh_pass=vagrant
+192.168.33.13 ansible_ssh_pass=vagrant
+192.168.33.14 ansible_ssh_pass=vagrant
+192.168.33.15 ansible_ssh_pass=vagrant
+192.168.33.16 ansible_ssh_pass=vagrant
+192.168.33.17 ansible_ssh_pass=vagrant
+192.168.33.18 ansible_ssh_pass=vagrant
+192.168.33.19 ansible_ssh_pass=vagrant
 
 [docker]
-172.22.0.2 ansible_user=vagrant 
-172.22.0.3 ansible_user=vagrant 
-172.22.0.4 ansible_user=vagrant 
-172.22.0.5 ansible_user=vagrant 
-172.22.0.6 ansible_user=vagrant 
-172.22.0.7 ansible_user=vagrant 
-172.22.0.8 ansible_user=vagrant 
-172.22.0.9 ansible_user=vagrant 
-172.22.0.10 ansible_user=vagrant 
-172.22.0.11 ansible_user=vagrant 
+172.22.0.11  
+172.22.0.10 
+172.22.0.9
+172.22.0.7
+172.22.0.5
+172.22.0.6
+172.22.0.8
+172.22.0.4
+172.22.0.3
+172.22.0.2
+
