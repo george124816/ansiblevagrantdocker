@@ -1,0 +1,7 @@
+- name: Install apache httpd but avoid starting it immediately (state=present is optional)
+  apt:
+    name: apache2
+    state: present
+  environment:
+    RUNLEVEL: 1
+  become: yes

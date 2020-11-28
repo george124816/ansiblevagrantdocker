@@ -1,0 +1,6 @@
+---
+- name: update
+  apt:
+    name: "*"
+    state: latest
+  become: yes

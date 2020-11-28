@@ -1,0 +1,7 @@
+---
+- name: uname
+  command: uname -a
+  register: uname
+
+- debug: msg="{{ uname.stdout }}"
+
